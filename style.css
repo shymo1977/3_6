@@ -1,0 +1,449 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-size: 16px;
+font-family: 'Lato', sans-serif;
+line-height: 1.7;
+color: #0097e6;
+
+}
+
+.container {
+width: 1140px;
+padding: 0 20px;
+margin: 0 auto;
+
+}
+
+.section {
+padding: 96px 0;
+
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-color: inherit;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: all 1s;
+    width:160px;
+    height: 63px;
+
+}
+
+.btn:hover {
+background-position: 0 100%;
+
+}
+
+.btn-one {
+border-style: none;
+background-color: #dfd444;
+color: #ffffff;
+margin: 0 0 30px 200px;
+text-decoration: none;
+
+}
+
+.btn-one:hover {
+color: #2c2c54;
+border-color: #2c2c54;
+background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+
+}
+
+.btn-two {
+border-color: #33d9b2;
+color: #33d9b2;
+text-decoration: none;
+
+}
+
+.btn-two:hover {
+color: #ffffff;
+border-color: #ffffff;
+background-image: linear-gradient(90deg, #33d9b2 50%, transparent 50%);
+
+}
+
+.btn-three {
+border-color: #ff5252;
+color: #ff5252;
+text-decoration: none;
+
+}
+
+.btn-three:hover {
+color: #ffffff;
+border-color: #ffffff;
+background-image: linear-gradient(90deg, #ff5252 50%, transparent 50%);
+
+}
+
+.btn-four {
+border-color: #0097e6;
+color: #0097e6;
+text-decoration: none;
+
+}
+
+.btn-four:hover {
+color: #ffffff;
+border-color: #ffffff;
+background-image: linear-gradient(90deg, #0097e6 50%, transparent 50%);
+
+}
+
+
+.btn-five {
+text-decoration: none;
+border-color: #ffffff;
+color: #33d9b2;
+margin: 36px 0;
+padding: 0;
+text-align: left;
+
+}
+
+
+.btn-five:hover {
+    color: #66ff00;
+    font-weight: 800;
+
+}
+
+
+
+.navigation {
+    list-style-type: none;
+    text-align:  right;
+    padding-top: 30px;
+
+}
+
+.navigation li {
+display: inline-block;
+margin: 0 36px 0 0;
+position: relative;
+
+}	
+
+.navigation a {
+text-decoration: none;
+color: white;
+
+}
+
+.navigation a:hover {
+color: #33d9b2;
+text-decoration: bold;
+
+}
+
+.navigation li:hover ul {
+display: block;
+text-align: center;
+position: absolute;
+background-color: #ffffff;
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+
+
+	
+
+.background-picture {
+    background-image: url("laptop.jpg"); 
+
+}
+
+.header li:hover a {
+    color: #33d9b2;
+
+}
+
+
+.splash {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    width: 100%;
+    display: flex;
+
+}
+
+.splash-inner {
+    margin: auto;
+    align-items: center;
+    max-width: 100%;
+
+}
+.splash h1 {
+    margin: 0;
+    word-spacing: 10px;
+    text-align: center;
+    line-height: 1.2;
+
+}
+
+.page-title {
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.page-subtitle {
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f1c40f;
+
+}
+
+.service-icon   {
+    font-size: 40px;
+    background: #ffffff;
+    color: #f1c40f;
+    width: 80px;
+    height: 80px;
+    line-height: 60px;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+
+}
+
+.col4 {
+    flex: 1;
+    border: 1px;
+    justify-content: center;
+    margin: 0 0 30px 0;
+    position: relative;
+
+}
+
+.small-subtitle {
+    font-size: 48px;
+    margin: 24px 0 12px 0;
+}
+
+.col4 p:first-of-type {
+    font-weight: 800;
+
+}
+
+.col_nr {
+    position: absolute;
+    font-size: 144px;
+    line-height: 1;
+    left: 30px;;
+    top: 20px;
+    color: #1bead9;
+    opacity: 0.3;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+.col3 {
+flex: 1;
+justify-content: center;
+margin: 0 20px 30px 0;
+position: relative;
+
+}	
+
+.col3 p:last-of-type {
+font-weight: 800;
+
+}
+
+.work-image {
+width: 300px;
+height: 300px;
+
+}
+
+.square {
+width: 300px;
+height: 300px;
+background: #33d9b2;
+opacity: 0.4;
+
+}
+
+
+.contact {
+background-color: #0097e6;
+color: #ffffff;
+position: relative;
+
+}
+
+.contact-left form {
+display: flex;
+flex-flow: column;
+
+}
+
+.contact input {
+display: flex;
+background-color: #0097e6;
+border: none;
+color: #ffffff;
+border-color: #ffffff;
+width: 50%;
+
+}
+
+
+::placeholder {
+color: #ffffff;
+font-size: 16px;
+
+}
+
+.contact textarea {
+display: flex;
+background-color: #0097e6;
+border: none;
+color: #ffffff;
+border-color: #ffffff;
+width: 50%;
+margin: 0 0 30px 0;
+
+}
+
+
+.contact-left {
+display: flex;
+flex: 3;
+flex-flow: column;
+color: #ffffff;
+justify-content: left;
+
+}
+
+
+.contact-left input::after {
+position: absolute;
+color: #ffffff;
+content: '';
+bottom: -5px;
+left: 50%;
+width: 100px;
+height: 5px;
+transform: translateX(-50%);
+background: #1abc9c;
+
+}
+
+.contact-right {
+display: flex;
+flex: 2;
+flex-flow: column;
+color: #ffffff;
+justify-content: left;
+margin: 0 0 30px 0;
+line-height: 1.2;
+
+}
+
+.contact-right span {
+font-weight: 800;
+}
+
+
+.footer {
+background-color: #0097e6;
+list-style-type: none;
+text-align: center;
+padding: 0 0 30px 0;
+margin: 0;
+
+}
+
+.footer li {
+display: inline-block;
+margin: 0 36px 0 0;
+position: relative;
+padding: 20px;
+list-style-type: none;
+
+}	
+
+.footer a {
+text-decoration: none;
+color: white;
+
+}
+
+.footer a:hover {
+color: #ffffff;
+text-decoration: bold;
+
+}
+
+.icons {
+display: flex;
+list-style-type: none;
+padding: 48px 0 48px 0;	
+font-size: 0;
+justify-content: center;
+
+}
+
+.icons i {
+width: 60px;
+height: 60px;
+font-size: 30px;
+color: #0097e6;
+
+}
+
+.icons i::after {
+content: '';
+left: 50%;
+width: 60px;
+height: 60px;
+transform: translateX(-50%);
+background: #000000;
+
+}
